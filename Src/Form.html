@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="Header">
+        
+        <img src="../Assets/config.png" alt="Config" id="config">
+    </div>
+    <div id="false"></div>
+    <div class="UnderHeaders">
+      <div class="UnderHeader1" style="padding-top: 0.5%; "><a href="./Form.html">Contato</a></div>
+      <div class="UnderHeader2" style="padding-top: 0.5%; "><a href="./Index.html">Sobre Mim</a></div>
+      <div class="UnderHeader3" style="padding-top: 0.5%; "><a href="./Projetos.html">Projetos</a></div>
+    </div>
+</header>
+
+    <main>
+      <div id="formulario">
+        <form onsubmit="">
+            <p>
+              <label for="name">Nome:</label>
+              <input type="text" id="name" name="user_name" />
+            </p>
+            <p>
+              <label for="mail">Email:</label>
+              <input type="email" id="mail" name="user_email" />
+            </p>
+            <p>
+              <label for="msg">Mensagem:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </p>
+            <p id="button">
+                <button type="submit">Enviar o contato</button>
+            </p>
+          </form>
+
+          <h3 id="titulo-ctt">Contatos Adicionados</h3>
+          <ul id="lista-ctt">
+
+          </ul>
+      </div>
+    </main>
+
+    <footer>
+      <p id="contatosT">contato:</p>
+      <div id="contatos">
+          <div class="contato">
+              <a href="https://github.com/EduardoxxMenezes">
+                  <img src="../Assets/github.png" alt="github" style="width: 80px;">
+              </a>
+              <p>@EduardoxxMenezes</p>
+          </div>
+          <div class="contato">
+              <a href="https://www.linkedin.com/in/eduardo-menezes-298b7b321/">
+                  <img src="../Assets/LinkedIn.png" alt="linkedin" >
+              </a>
+              <p>Eduardo Menezes</p>
+          </div>
+          <div class="contato">
+              <a href="https://www.instagram.com/menezes_edu._?utm_source=qr&igsh=enAzcGpibjIwbmw3">
+                  <img src="../Assets/instagram.png" alt="instagram">
+              </a>
+              <p>@menezes_edu_.</p>
+          </div>
+      </div>
+  </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
