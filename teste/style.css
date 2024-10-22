@@ -1,0 +1,60 @@
+.header{
+    background-color: black;
+}
+.UnderHeader{
+    background-color: rgb(90, 89, 89);
+}
+
+.links{
+    display: inline;
+    color: white;
+    justify-content: center;
+    width: 100%;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.corpo{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.listaProdutos{
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black;
+    justify-content: center;
+    
+}
+.images{
+   width: 500px;
+    height: auto;
+}
+#Titulo{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+#titulo1{
+    display: block;
+    margin: 1px;
+    height: 5px;
+}
+#texto{
+    display: block;
+}
+#cavalao{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
